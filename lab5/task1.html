@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML">
+    <meta name="description" content="ІС-23">
+    <meta name="author" content="Єркін Ілля Віталійович">
+    <title>Єркін І.В. ІС-23</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  
+    <body>
+        <form id="validationForm">
+          <label for="fullName">ПІБ (ТТТТТТ Т.Т.)</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Прізвище І.І.">
+          <span class="error-message" id="fullNameError"></span>
+      
+          <label for="idCard">ID-card (ТТ №ЧЧЧЧЧЧ)</label>
+          <input type="text" id="idCard" name="idCard" placeholder="АА №123456">
+          <span class="error-message" id="idCardError"></span>
+      
+          <label for="faculty">Факультет (ТТТТ)</label>
+          <input type="text" id="faculty" name="faculty" placeholder="ФІОТ">
+          <span class="error-message" id="facultyError"></span>
+      
+          <label for="birthDate">Дата народження (ЧЧ.ЧЧ.ЧЧЧЧ)</label>
+          <input type="text" id="birthDate" name="birthDate" placeholder="01.01.2000">
+          <span class="error-message" id="birthDateError"></span>
+      
+          <label for="address">Адреса (м. ТТТТТТ)</label>
+          <input type="text" id="address" name="address" placeholder="м. Київ">
+          <span class="error-message" id="addressError"></span>
+      
+          <button type="button" onclick="validateForm()">Submit</button>
+        </form>
+      
+        <div class="output" id="output">
+          <h2>Введена інформація:</h2>
+          <p id="outputContent">Немає даних</p>
+        </div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fffdf2;
+  }
+  #usersList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+  }
+  .user-info {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+  }
+  .user-info img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  .user-info p {
+    margin: 5px 0;
+  }
