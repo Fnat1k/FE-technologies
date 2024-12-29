@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FE-technologie/lab7/my-app/static/css/main.bd32ce5f.css",
+    "main.js": "/FE-technologie/lab7/my-app/static/js/main.75efba94.js",
+    "static/js/488.9c92ff38.chunk.js": "/FE-technologie/lab7/my-app/static/js/488.9c92ff38.chunk.js",
+    "index.html": "/FE-technologie/lab7/my-app/index.html",
+    "main.bd32ce5f.css.map": "/FE-technologie/lab7/my-app/static/css/main.bd32ce5f.css.map",
+    "main.75efba94.js.map": "/FE-technologie/lab7/my-app/static/js/main.75efba94.js.map",
+    "488.9c92ff38.chunk.js.map": "/FE-technologie/lab7/my-app/static/js/488.9c92ff38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd32ce5f.css",
+    "static/js/main.75efba94.js"
+  ]
+}
